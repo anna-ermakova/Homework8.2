@@ -32,7 +32,7 @@ public class Main {
             if (element < minPaymentsForTheMonth) {
                 minPaymentsForTheMonth = element;
             } else if (element > maxPaymentsForTheMonth) {
-                maxPaymentsForTheMonth=element;
+                maxPaymentsForTheMonth = element;
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + minPaymentsForTheMonth + " рублей.");
@@ -50,9 +50,8 @@ public class Main {
         int[] arr3 = generateRandomArray();
         for (int value1 : arr3) {
             sumPaymentsForTheMonth += value1;
-
-            System.out.println("Средняя сумма трат за день составила " + sumPaymentsForTheMonth/ (float) arr3.length + " рублей.");
         }
+        System.out.println("Средняя сумма трат за день составила " + sumPaymentsForTheMonth / (float) arr3.length + " рублей.");
 
         System.out.println();
 
